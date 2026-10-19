@@ -2,9 +2,19 @@
 
 ## Overview
 
-This compact Python notebook connects section-wise legal retrieval with rule-based document assembly. It follows the owner’s reported statutory RAG design work at North South University; this is a separate demonstration.
+This compact Python notebook connects section-wise legal retrieval with rule-based document assembly. This is a separate demonstration of retrieval, assembly and testing concepts.
 
 Fictional case details select prepared paragraphs with explicit explanations. Separate retrieval and review flag relevant sections, missing citations and simulated judgment updates.
+
+## Earlier research contribution
+
+At North South University, my early contribution focused on problem definition, statutory data preparation and retrieval-pipeline design for a Bangladesh legal question-answering chatbot. Discussions with a practising lawyer highlighted the risk of confusing Bangladeshi and Indian legal provisions.
+
+I helped organise the Penal Code 1860, Code of Criminal Procedure 1898 and Special Powers Act 1974 by section number, retaining the parent Act name for source traceability. We investigated retrieved passages that were related to a question but insufficient to answer it fully. I later moved to another research project, and another sub-team continued this work toward publication.
+
+The later pipeline used a similarity threshold to trigger query decomposition. I did not establish that 0.80 was the optimal threshold. This notebook uses it only as an illustrative, uncalibrated starting point for TF-IDF retrieval—not as an accuracy percentage.
+
+The notebook below is a recent demonstration, not the original research implementation or evidence that I implemented the full published pipeline. Act names alone cannot distinguish jurisdictions with overlapping statute titles; a production corpus also needs explicit jurisdiction, official-source and version metadata.
 
 ## Architecture
 
