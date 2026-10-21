@@ -27,3 +27,7 @@ The notebook below is a recent demonstration, not the original research implemen
 View saved outputs in [the notebook](Legal_Knowledge_and_RAG_Prototype.ipynb), or [open Colab](https://colab.research.google.com/github/nafismam/UkilRAG/blob/main/Legal_Knowledge_and_RAG_Prototype.ipynb) and run all cells. Locally, use an existing Jupyter installation with `pip install -r requirements.txt`.
 
 No keys or GPU are required. Legal summaries, judgments and cases need replacement with verified material before real use. The illustrative 0.80 threshold is uncalibrated.
+
+## Interview discussion deck
+
+[Preview the five-slide presentation](presentation/README.md), download the editable PowerPoint, or read the speaker notes. The deck describes the role, a proposed workflow and the scope of the demonstrations.
