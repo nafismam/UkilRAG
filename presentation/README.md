@@ -1,22 +1,23 @@
 # Docitalis interview discussion
 
-Five slides for an optional, approximately five-minute discussion of the Knowledge Systems & AI Automation internship. The deck distinguishes public company information, the supplied role brief, earlier research contributions, recent prototypes, and proposed work.
+Five compact, plain-language slides for an optional 4–5 minute discussion of the Knowledge Systems & AI Automation internship. Flow: goal → possible challenges → matching actions → one example → a small first contribution. The deck distinguishes public company information, the supplied role brief, earlier research contributions, recent prototypes, and proposed work.
 
 - [Download the editable PowerPoint](Nafis_Ismam_Docitalis_Interview.pptx?raw=true)
 - [View the PDF](Nafis_Ismam_Docitalis_Interview.pdf)
 - [Speaker notes](speaker_notes.md)
+- [Plain-language explanation and preparation guide](plain_language_guide.md)
 
 To use Google Slides, download the PPTX, upload it to Google Drive, then open it with Google Slides. Review fonts and spacing after importing.
 
 ## Slide previews
 
-![Slide 1: business and role context](previews/slide-1.png)
+![Slide 1: the goal](previews/slide-1.png)
 
-![Slide 2: deterministic assembly and assistive review](previews/slide-2.png)
+![Slide 2: possible challenges to validate](previews/slide-2.png)
 
-![Slide 3: proposed daily workflow](previews/slide-3.png)
+![Slide 3: matching actions and benefits](previews/slide-3.png)
 
-![Slide 4: regression testing and source updates](previews/slide-4.png)
+![Slide 4: a judgment-update example](previews/slide-4.png)
 
 ![Slide 5: evidence and proposed first contribution](previews/slide-5.png)
 
