@@ -30,7 +30,7 @@ No keys or GPU are required. Legal summaries, judgments and cases need replaceme
 
 ## Interview discussion deck
 
-Eight slides: role understanding, previous experience, sources and rules, assembly, retrieval/review, tests, two implementation decisions, and keeping the system reliable.
+Seven slides: role understanding, previous experience, sources and rules, assembly, retrieval/review, tests, and keeping the system reliable.
 
 - [Download PowerPoint](presentation/Nafis_Ismam_Docitalis_Final.pptx?raw=true)
 - [View PDF](presentation/Nafis_Ismam_Docitalis_Final.pdf)
