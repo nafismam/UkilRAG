@@ -1,5 +1,7 @@
 # Docitalis interview discussion
 
+**Latest deck:** [From legal research to a working demo](research_to_role/README.md) — a compact walkthrough of the research-to-role connection. The earlier general role deck is retained below.
+
 Five compact, plain-language slides for an optional 4–5 minute discussion of the Knowledge Systems & AI Automation internship. Flow: goal → possible challenges → matching actions → one example → a small first contribution. The deck distinguishes public company information, the supplied role brief, earlier research contributions, recent prototypes, and proposed work.
 
 - [Download the editable PowerPoint](Nafis_Ismam_Docitalis_Interview.pptx?raw=true)
