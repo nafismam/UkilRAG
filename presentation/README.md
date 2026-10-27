@@ -1,28 +1,29 @@
 # Final interview presentation
 
-Seven plain-language slides with varied layouts: a dark opening, research timeline, linked source and rule records, assembly flow, warning report, test dashboard and reliability roadmap. Each implementation slide explains the process and shows a small output. No code screenshots. Suggested length: about 5–6 minutes; adjust depth to the interviewer’s interest.
+Eight plain-language slides with varied layouts and concrete examples. Slides 3–6 show the source/rule fields, actual sample module decisions, retrieval/decomposition steps and each regression test's input and expected outcome. The challenges slide explains real design concerns without inventing a project incident. Suggested full walkthrough: 6–7 minutes; ask whether the interviewer wants this level of detail.
 
 - [Download PowerPoint](Nafis_Ismam_Docitalis_Final.pptx?raw=true)
 - [View PDF](Nafis_Ismam_Docitalis_Final.pdf)
-- [Read the slide-by-slide speaking guide](speaker_notes.md)
+- [Read the speaking guide](speaker_notes.md)
 
 For Google Slides, download the PPTX, upload it to Drive and open with Google Slides. Check layout after importing.
 
 ## Flow
 
-1. **My understanding of the role:** learn lawyers’ reasoning, record approved rules and check results.
-2. **Previous experience:** literature review, problem identification and early design for Bangladeshi legal question answering.
-3. **Cells 1 + 2:** prepare source records, paragraph templates and rules; link them through source IDs.
-4. **Cell 3:** validate facts, check conditions and conflicts, assemble prepared text and return a decision trace.
-5. **Cell 4:** retrieve source summaries; check citation markers and recorded judgment dates. Show the actual sample warnings and unresolved search.
-6. **Cell 5:** explain the four regression groups and their passing results on synthetic examples.
-7. **Keeping it reliable:** use approved sources/examples, review and version changes, then evaluate retrieval and citation support before expanding.
+1. My understanding of the role.
+2. Previous experience and its connection to the recent demonstration.
+3. Cells 1 + 2: source fields, module conditions/dependencies, version and source links.
+4. Cell 3: input facts, all seven inclusion/skip decisions and the resulting sequence.
+5. Cell 4: direct search score → threshold failure → explicit decomposition → separate retrieval → merge; independent citation/update review.
+6. Cell 5: four regression groups, their inputs and the failures they aim to catch.
+7. Design challenges: the demo's response and the remaining limitation, not a fabricated development story.
+8. Keeping it reliable: approved sources/cases, reviewed versions and realistic retrieval evaluation.
 
 ## Slide previews
 
 ![Overview](previews/overview.png)
 
-### 1. My understanding of the role
+### 1. Understanding the role
 
 ![Slide 1](previews/slide-1.png)
 
@@ -30,25 +31,29 @@ For Google Slides, download the PPTX, upload it to Drive and open with Google Sl
 
 ![Slide 2](previews/slide-2.png)
 
-### 3. Cells 1 + 2: sources and paragraph rules
+### 3. Sources and paragraph rules
 
 ![Slide 3](previews/slide-3.png)
 
-### 4. Cell 3: assembly and decision trace
+### 4. Actual module selection
 
 ![Slide 4](previews/slide-4.png)
 
-### 5. Cell 4: retrieval and review output
+### 5. Retrieval and decomposition
 
 ![Slide 5](previews/slide-5.png)
 
-### 6. Cell 5: regression tests
+### 6. Regression inputs and expectations
 
 ![Slide 6](previews/slide-6.png)
 
-### 7. Keeping it reliable in real use
+### 7. Challenges, approaches and limitations
 
 ![Slide 7](previews/slide-7.png)
+
+### 8. Keeping it reliable
+
+![Slide 8](previews/slide-8.png)
 
 ## Sources and scope
 
