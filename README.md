@@ -30,4 +30,4 @@ No keys or GPU are required. Legal summaries, judgments and cases need replaceme
 
 ## Interview discussion deck
 
-[Preview the final eight-slide presentation](presentation/README.md), download the PowerPoint, or read the speaker notes. The flow is: my understanding of the role → previous experience → sources and module rules → assembly → review → tests → design challenges → keeping it reliable.
+[Preview the final eight-slide presentation](presentation/README.md), download the PowerPoint, or read the speaker notes. The flow is: my understanding of the role → previous experience → sources and module rules → assembly → review → tests → design choices → keeping it reliable.

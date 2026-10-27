@@ -1,6 +1,6 @@
 # Slide-by-slide speaking guide
 
-Eight slides. Full walkthrough: about 6–7 minutes. For a shorter introduction, offer to skip detail slides and discuss them only if useful.
+Eight slides. Offer a short walkthrough, then adjust depth to the interviewer’s interest.
 
 ## 1. Role understanding
 
@@ -26,9 +26,9 @@ About 60 seconds. The two-part exact-source query first has a best score of 0.78
 
 About 50 seconds. Reproducibility compares document and full-output fingerprints across 25 runs. Reference parity compares four synthetic cases against independently written module sequences, citation lists and actual text markers. The conflict test expects an exception when both teaching routes are requested, and checks consistent messages. The update test begins with no notes, adds a simulated C167 note and expects M3 and M5 warnings. Additional checks remove C54, add unknown C999 and exercise retrieval paths. All four groups pass. These checks were specified for this role-focused demonstration, not taken as an evaluation suite from the research paper. Twenty-five is a demonstration count, not a statistical guarantee. Synthetic fixtures are not genuinely lawyer-approved historical cases. Passing checks software expectations, not legal correctness.
 
-## 7. Design challenges and limits
+## 7. Design choices and trade-offs
 
-About 45 seconds. Present this as design reasoning rather than invented project history. “The demo makes three concerns visible. A compound query can fail the gate, so the controlled example tries explicit decomposition. Conflicting module choices must not silently coexist, so assembly raises an error. Citation metadata may claim a source is required even when the text omits it, so the review checks actual markers.” These are chosen failure modes and scripted checks, not evidence of a real customer incident or measured business improvement. The search is not validated on natural legal queries, legal exclusions require domain approval, and marker checks do not assess semantic support. Do not claim an optimal threshold or a fully solved legal retrieval problem.
+About 60 seconds. This slide replaces a challenge story with the actual implementation choices. First, 0.80 was adopted from the reference approach to demonstrate gating, not derived from experiments on this TF-IDF index. It is not 80% confidence, correctness or coverage. Calibrate thresholds with reviewed legal questions and expected sources. Second, lists and dictionaries serve different roles: a list holds multiple records, while each dictionary names fields; source["act_name"] is clearer than remembering positional indexes. The by_id dictionary also supports lookup by source ID and rejects duplicates. Third, sorted JSON plus SHA-256 produces compact fingerprints for comparing knowledge-base content and outputs. Direct equality comparisons are another option. Hashes do not themselves create determinism, establish semantic correctness, or make this an approval/signature system. Fourth, scikit-learn supplies TF-IDF and cosine similarity for a small local retrieval baseline. It needs no embedding-model download or API key. It may miss paraphrases and its score is lexical similarity, not applicability. A dense embedding model or hybrid retrieval could be evaluated later. An LLM is a separate generator/reviewer, not a direct alternative to the TF-IDF retrieval component. The current notebook uses rule-based checks rather than an LLM review layer.
 
 ## 8. Real-use reliability
 

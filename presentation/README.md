@@ -1,6 +1,6 @@
 # Final interview presentation
 
-Eight plain-language slides with varied layouts and concrete examples. Slides 3–6 show the source/rule fields, actual sample module decisions, retrieval/decomposition steps and each regression test's input and expected outcome. The challenges slide explains real design concerns without inventing a project incident. Suggested full walkthrough: 6–7 minutes; ask whether the interviewer wants this level of detail.
+Eight plain-language slides with varied layouts and concrete examples. Slides 3–6 show the source/rule fields, actual sample module decisions, retrieval/decomposition steps and each regression test's input and expected outcome. The design-choice slide explains the 0.80 starting threshold, dictionaries/lists, SHA-256 fingerprints and TF-IDF with scikit-learn, including their limits. Suggested full walkthrough: 6–7 minutes; ask whether the interviewer wants this level of detail.
 
 - [Download PowerPoint](Nafis_Ismam_Docitalis_Final.pptx?raw=true)
 - [View PDF](Nafis_Ismam_Docitalis_Final.pdf)
@@ -16,7 +16,7 @@ For Google Slides, download the PPTX, upload it to Drive and open with Google Sl
 4. Cell 3: input facts, all seven inclusion/skip decisions and the resulting sequence.
 5. Cell 4: direct search score → threshold failure → explicit decomposition → separate retrieval → merge; independent citation/update review.
 6. Cell 5: four regression groups, their inputs and the failures they aim to catch.
-7. Design challenges: the demo's response and the remaining limitation, not a fabricated development story.
+7. Design choices: why a starting threshold, named dictionaries, content fingerprints and lightweight TF-IDF retrieval were used.
 8. Keeping it reliable: approved sources/cases, reviewed versions and realistic retrieval evaluation.
 
 ## Slide previews
@@ -47,7 +47,7 @@ For Google Slides, download the PPTX, upload it to Drive and open with Google Sl
 
 ![Slide 6](previews/slide-6.png)
 
-### 7. Challenges, approaches and limitations
+### 7. Design choices and trade-offs
 
 ![Slide 7](previews/slide-7.png)
 
