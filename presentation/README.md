@@ -1,39 +1,54 @@
 # Final interview presentation
 
-One five-slide deck combining role understanding, previous experience and a cell-by-cell UkilRAG walkthrough. Related cells share a slide; assembly has a slide of its own. Each implementation slide shows an idea and a small output, not code. Suggested length: about 4 minutes.
+Seven plain-language slides. Each implementation slide explains what goes in, what the cell does and what comes out. No code screenshots. Suggested length: about 5–6 minutes; adjust depth to the interviewer’s interest.
 
 - [Download PowerPoint](Nafis_Ismam_Docitalis_Final.pptx?raw=true)
 - [View PDF](Nafis_Ismam_Docitalis_Final.pdf)
-- [Read the speaking guide](speaker_notes.md)
+- [Read the slide-by-slide speaking guide](speaker_notes.md)
 
-For Google Slides, download the PPTX, upload it to Drive, and open with Google Slides. Check the layout after importing.
+For Google Slides, download the PPTX, upload it to Drive and open with Google Slides. Check layout after importing.
 
 ## Flow
 
-1. **My understanding of the role:** learn from lawyers, record approved rules and check changes.
-2. **My previous experience:** literature review, problem identification and initial design.
-3. **Cells 1 + 2 — sources and paragraph rules:** example source C167, and the rule linking it to the records paragraph.
-4. **Cell 3 — deterministic assembly:** sample facts produce jurisdiction, facts, procedure, records and relief, with an inclusion explanation.
-5. **Cells 4 + 5 — review and tests:** actual search/review observations, 25 matching runs, four reference cases, conflict rejection and source-update checks.
+1. **My understanding of the role:** learn lawyers’ reasoning, record approved rules and check results.
+2. **Previous experience:** literature review, problem identification and early design for Bangladeshi legal question answering.
+3. **Cells 1 + 2:** prepare source records, paragraph templates and rules; link them through source IDs.
+4. **Cell 3:** validate facts, check conditions and conflicts, assemble prepared text and return a decision trace.
+5. **Cell 4:** retrieve source summaries; check citation markers and recorded judgment dates. Show the actual sample warnings and unresolved search.
+6. **Cell 5:** explain the four regression groups and their passing results on synthetic examples.
+7. **Keeping it reliable:** use approved sources/examples, review and version changes, then evaluate retrieval and citation support before expanding.
 
 ## Slide previews
 
 ![Overview](previews/overview.png)
 
 ### 1. My understanding of the role
+
 ![Slide 1](previews/slide-1.png)
 
-### 2. My previous experience
+### 2. Previous experience
+
 ![Slide 2](previews/slide-2.png)
 
 ### 3. Cells 1 + 2: sources and paragraph rules
+
 ![Slide 3](previews/slide-3.png)
 
-### 4. Cell 3: assembly and decision record
+### 4. Cell 3: assembly and decision trace
+
 ![Slide 4](previews/slide-4.png)
 
-### 5. Cells 4 + 5: review and test outputs
+### 5. Cell 4: retrieval and review output
+
 ![Slide 5](previews/slide-5.png)
+
+### 6. Cell 5: regression tests
+
+![Slide 6](previews/slide-6.png)
+
+### 7. Keeping it reliable in real use
+
+![Slide 7](previews/slide-7.png)
 
 ## Sources and scope
 
