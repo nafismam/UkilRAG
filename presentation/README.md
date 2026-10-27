@@ -1,6 +1,6 @@
 # Final interview presentation
 
-Seven plain-language slides. Each implementation slide explains what goes in, what the cell does and what comes out. No code screenshots. Suggested length: about 5–6 minutes; adjust depth to the interviewer’s interest.
+Seven plain-language slides with varied layouts: a dark opening, research timeline, linked source and rule records, assembly flow, warning report, test dashboard and reliability roadmap. Each implementation slide explains the process and shows a small output. No code screenshots. Suggested length: about 5–6 minutes; adjust depth to the interviewer’s interest.
 
 - [Download PowerPoint](Nafis_Ismam_Docitalis_Final.pptx?raw=true)
 - [View PDF](Nafis_Ismam_Docitalis_Final.pdf)
