@@ -30,4 +30,9 @@ No keys or GPU are required. Legal summaries, judgments and cases need replaceme
 
 ## Interview discussion deck
 
-[Preview the final eight-slide presentation](presentation/README.md), download the PowerPoint, or read the speaker notes. The flow is: my understanding of the role → previous experience → sources and module rules → assembly → review → tests → design choices → keeping it reliable.
+Eight slides: role understanding, previous experience, sources and rules, assembly, retrieval/review, tests, two implementation decisions, and keeping the system reliable.
+
+- [Download PowerPoint](presentation/Nafis_Ismam_Docitalis_Final.pptx?raw=true)
+- [View PDF](presentation/Nafis_Ismam_Docitalis_Final.pdf)
+
+Speaking notes are embedded in the PowerPoint. The presentation folder contains only the PPTX and PDF.
