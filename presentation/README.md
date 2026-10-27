@@ -1,6 +1,6 @@
 # Final interview presentation
 
-One five-slide deck combining role understanding, previous experience and the recent UkilRAG implementation. Suggested length: 3–4 minutes.
+One five-slide deck combining role understanding, previous experience and a cell-by-cell UkilRAG walkthrough. Related cells share a slide; assembly has a slide of its own. Each implementation slide shows an idea and a small output, not code. Suggested length: about 4 minutes.
 
 - [Download PowerPoint](Nafis_Ismam_Docitalis_Final.pptx?raw=true)
 - [View PDF](Nafis_Ismam_Docitalis_Final.pdf)
@@ -10,11 +10,11 @@ For Google Slides, download the PPTX, upload it to Drive, and open with Google S
 
 ## Flow
 
-1. **My understanding:** learn lawyers' reasoning, record approved rules, explain outputs and test changes.
-2. **My previous experience:** literature review, problem identification and initial design for Bangladeshi legal question answering.
-3. **Project implementation:** a fictional case passes through rule checks to a prepared draft and decision record.
-4. **Review and tests:** citation-marker checks, recorded source-update warnings and four regression groups on synthetic examples.
-5. **How I would contribute:** start with one approved workflow, agree on examples and review a small pilot with the team.
+1. **My understanding of the role:** learn from lawyers, record approved rules and check changes.
+2. **My previous experience:** literature review, problem identification and initial design.
+3. **Cells 1 + 2 — sources and paragraph rules:** example source C167, and the rule linking it to the records paragraph.
+4. **Cell 3 — deterministic assembly:** sample facts produce jurisdiction, facts, procedure, records and relief, with an inclusion explanation.
+5. **Cells 4 + 5 — review and tests:** actual search/review observations, 25 matching runs, four reference cases, conflict rejection and source-update checks.
 
 ## Slide previews
 
@@ -26,13 +26,13 @@ For Google Slides, download the PPTX, upload it to Drive, and open with Google S
 ### 2. My previous experience
 ![Slide 2](previews/slide-2.png)
 
-### 3. Project implementation
+### 3. Cells 1 + 2: sources and paragraph rules
 ![Slide 3](previews/slide-3.png)
 
-### 4. Review and testing
+### 4. Cell 3: assembly and decision record
 ![Slide 4](previews/slide-4.png)
 
-### 5. How I would contribute
+### 5. Cells 4 + 5: review and test outputs
 ![Slide 5](previews/slide-5.png)
 
 ## Sources and scope
