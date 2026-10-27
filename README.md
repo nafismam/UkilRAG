@@ -30,6 +30,4 @@ No keys or GPU are required. Legal summaries, judgments and cases need replaceme
 
 ## Interview discussion deck
 
-[Preview the five-slide presentation](presentation/README.md), download the editable PowerPoint, or read the speaker notes. The deck describes the role, a proposed workflow and the scope of the demonstrations.
-
-Latest presentation: [From legal research to a working demo](presentation/research_to_role/README.md), with five slides, PDF preview and a speaking guide.
+[Preview the final five-slide presentation](presentation/README.md), download the PowerPoint, or read the speaker notes. The flow is: my understanding of the role → previous experience → UkilRAG implementation and checks → proposed first contribution.

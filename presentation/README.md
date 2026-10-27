@@ -1,34 +1,45 @@
-# Docitalis interview discussion
+# Final interview presentation
 
-**Latest deck:** [From legal research to a working demo](research_to_role/README.md) — a compact walkthrough of the research-to-role connection. The earlier general role deck is retained below.
+One five-slide deck combining role understanding, previous experience and the recent UkilRAG implementation. Suggested length: 3–4 minutes.
 
-Five compact, plain-language slides for an optional 4–5 minute discussion of the Knowledge Systems & AI Automation internship. Flow: goal → possible challenges → matching actions → one example → a small first contribution. The deck distinguishes public company information, the supplied role brief, earlier research contributions, recent prototypes, and proposed work.
+- [Download PowerPoint](Nafis_Ismam_Docitalis_Final.pptx?raw=true)
+- [View PDF](Nafis_Ismam_Docitalis_Final.pdf)
+- [Read the speaking guide](speaker_notes.md)
 
-- [Download the editable PowerPoint](Nafis_Ismam_Docitalis_Interview.pptx?raw=true)
-- [View the PDF](Nafis_Ismam_Docitalis_Interview.pdf)
-- [Speaker notes](speaker_notes.md)
-- [Plain-language explanation and preparation guide](plain_language_guide.md)
+For Google Slides, download the PPTX, upload it to Drive, and open with Google Slides. Check the layout after importing.
 
-To use Google Slides, download the PPTX, upload it to Google Drive, then open it with Google Slides. Review fonts and spacing after importing.
+## Flow
+
+1. **My understanding:** learn lawyers' reasoning, record approved rules, explain outputs and test changes.
+2. **My previous experience:** literature review, problem identification and initial design for Bangladeshi legal question answering.
+3. **Project implementation:** a fictional case passes through rule checks to a prepared draft and decision record.
+4. **Review and tests:** citation-marker checks, recorded source-update warnings and four regression groups on synthetic examples.
+5. **How I would contribute:** start with one approved workflow, agree on examples and review a small pilot with the team.
 
 ## Slide previews
 
-![Slide 1: the goal](previews/slide-1.png)
+![Overview](previews/overview.png)
 
-![Slide 2: possible challenges to validate](previews/slide-2.png)
+### 1. My understanding of the role
+![Slide 1](previews/slide-1.png)
 
-![Slide 3: matching actions and benefits](previews/slide-3.png)
+### 2. My previous experience
+![Slide 2](previews/slide-2.png)
 
-![Slide 4: a judgment-update example](previews/slide-4.png)
+### 3. Project implementation
+![Slide 3](previews/slide-3.png)
 
-![Slide 5: evidence and proposed first contribution](previews/slide-5.png)
+### 4. Review and testing
+![Slide 4](previews/slide-4.png)
 
-## Sources and boundaries
+### 5. How I would contribute
+![Slide 5](previews/slide-5.png)
 
-- [Docitalis official website](https://docitalis.com/): legal translation focus, citizenship document workflow, human review, and coordination with legal partners. Consulted 21 October 2026. Website performance claims are not used as independently established facts or personal improvement targets.
-- [Docitalis privacy policy](https://docitalis.com/privacy-cookie-policy/): document confidentiality and restricted access context. Consulted 21 October 2026.
-- The job description supplied by the candidate: role responsibilities, deterministic strategy boundary, source matrix, regression validation, appeals extension and on-site context at Aprigliano International Law Firm. The deck does not infer corporate ownership or affiliation from shared premises. Aprigliano's website could not be retrieved during preparation; no separate claims about its practice areas or internal systems are made.
-- [UkilRAG](https://github.com/nafismam/UkilRAG): educational deterministic assembly and synthetic regression examples.
-- [LearnRAG](https://github.com/nafismam/LearnRAG): a separate real-model RAG demonstration with observed results and limitations.
+## Sources and scope
 
-Daily activities, architecture and first-month milestones are proposals to discuss with the team, not claims about its existing implementation. Earlier research contribution is based on the candidate's account; recent demonstrations are separate from the published research pipeline. Synthetic fixtures are not lawyer-approved case histories. Passing regression checks is not a guarantee of legal accuracy. Sources and caveats are also included in PowerPoint speaker notes.
+- The original internship posting supplied by the candidate describes work with lawyers, explicit rules, versioned assembly, historical-case regression testing, assistive RAG review and an appeals extension. The deck explains that brief, not Docitalis's existing internal software.
+- [Docitalis](https://docitalis.com/) provides the public company context. The supplied posting states the connection with services for Aprigliano International Law Firm; the deck does not infer corporate ownership.
+- Earlier research responsibilities are based on the candidate's account. They are separate from this recent demonstration and from implementation of the full published research pipeline.
+- [The executed notebook](../Legal_Knowledge_and_RAG_Prototype.ipynb) provides the demonstration and test evidence. It uses sample summaries and fictional cases/judgments, not complete verified official text or genuinely lawyer-approved historical cases. Passing tests does not establish legal accuracy. Its review checks markers and recorded dates; it does not assess legal applicability or run a generative review model. Technical inspiration is credited in the notebook.
+
+The previous two decks have been removed from the current repository version. They remain recoverable through normal Git history.
